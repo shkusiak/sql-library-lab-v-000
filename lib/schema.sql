@@ -10,14 +10,14 @@ CREATE TABLE characters  (
 CREATE TABLE books (
   id INTEGER PRIMARY KEY,
   title TEXT,
-  year INTEGER, 
+  year INTEGER,
   series_id INTEGER
 );
 
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
-  title TEXT, 
-  author_id INTEGER, 
+  title TEXT,
+  author_id INTEGER,
   sub_genre_id INTEGER
 );
 
